@@ -1,6 +1,6 @@
 function checkCoinCollision(a, b){
-    if(a.x + a.size * 0.5 > b.x &&
-        a.x + a.size * 0.1  < b.x + b.size &&
+    if(a.x + a.size * 0.6 > (b.x + (b.size * 0.4)) &&
+        a.x + a.size * 0.4  < b.x + (b.size * 0.6) &&
         a.y < b.y + b.size * 0.5 &&
         a.y + a.size > b.y
         ){

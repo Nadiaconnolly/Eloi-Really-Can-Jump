@@ -6,7 +6,7 @@ const gameSettings = {
     numGoombas: 6,
     skyColor : [174, 176, 62], 
     groundColor :  [62, 176, 130], 
-    overlayColor: [200, 200, 200, 225],
+    overlayColor: [148, 101, 129, 225],
     boundingBoxFillColor : 'grey',
     boundingBoxStrokeColor: 'red',
     boundingBoxStrokeWeight: 2,

@@ -63,7 +63,7 @@ class Game {
                         if(!this.died){
                             this.sounds.themeSong.stop()
 
-                            //this.sounds.dieSound.play()
+                            this.sounds.dieSound.play()
 
                             this.over = true
                             this.started = false

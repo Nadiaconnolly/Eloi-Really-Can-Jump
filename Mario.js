@@ -7,7 +7,7 @@ class Mario {
         this.images = images
         this.imageCounter = 5
         this.direction = 1
-        this.accelerationX = 8
+        this.accelerationX = 6
         this.accelerationY = 1
         this.velocityX = 0
         this.velocityY = 0
@@ -65,8 +65,8 @@ class Mario {
     }
 
     render(){
-        // this.boundingbox.update(this.x, this.y)
-        // this.boundingbox.render()
+         //this.boundingbox.update(this.x, this.y)
+         //this.boundingbox.render()
         image(this.images[this.imageCounter], this.x, this.y, this.size, this.size)
     }
 
@@ -102,6 +102,7 @@ class Mario {
         if(this.y < this.startY){
             this.velocity += this.gravity
             this.jumping = true
+            this.imageCounter = 8
         } else{
             this.velocityY = 0
         }
